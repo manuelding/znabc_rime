@@ -31,7 +31,7 @@ https://github.com/ma-ning/znabc
 %appdata%/rime 里有个xxxxx.userdb 的是用户字典, 其他的我全删了.
 
 
-3,修改default.custom.yaml的键盘设置
+3,只在default.custom.yaml的patch下添加了键盘设置,其他全部没动.
 
 ```
 patch:
