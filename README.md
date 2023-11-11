@@ -52,6 +52,8 @@ https://github.com/pdog18/rime-soak
 5, 愉快的智能ABC盲打吧
 
 6, 关于用户词典的问题. 如果打开用户词典translator/enable_user_dict: true
-会出现单字词频也被调整了. 但是关掉用户词典translator/enable_user_dict: false  后. 
-会导致造词不被记录. 似乎也没有有效的办法.
-想打长词, 还是换其他输入法吧. 智能ABC比较适合单字, 和词组盲打.
+会出现单字词频也被调整了. 
+比如打de多输入几次得, 就会发现首位被替换了. 非常不适合用来盲打智能ABC.
+但是关掉用户词典translator/enable_user_dict: false  后. 
+会导致新造的词不被记录. 搜索了一圈, 似乎也没有有效的办法.
+想打长词, 还是换其他输入法吧. 智能ABC比较适合单字和词组盲打.
