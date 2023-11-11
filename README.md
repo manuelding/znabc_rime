@@ -41,6 +41,7 @@ patch:
   key_binder:
     bindings: [{accept: ISO_Left_Tab, send: Page_Up, when: composing}, {accept: "Shift+Tab", send: Page_Up, when: composing}, {accept: Tab, send: Page_Down, when: composing}, {accept: minus, send: Page_Up, when: has_menu}, {accept: equal, send: Page_Down, when: has_menu}, {accept: comma, send: Page_Up, when: paging}, {accept: period, send: Page_Down, when: has_menu}, {accept: bracketleft, send: Page_Up, when: paging}, {accept: bracketright, send: Page_Down, when: has_menu}]
   "menu/page_size": 9
+  translator/enable_user_dict: false
 
 ```
 
@@ -49,3 +50,8 @@ patch:
 https://github.com/pdog18/rime-soak
 
 5, 愉快的智能ABC盲打吧
+
+6, 关于用户词典的问题. 如果打开用户词典translator/enable_user_dict: true
+会出现单字词频也被调整了. 但是关掉用户词典translator/enable_user_dict: false  后. 
+会导致造词不被记录. 似乎也没有有效的办法.
+想打长词, 还是换其他输入法吧. 智能ABC比较适合单字, 和词组盲打.
